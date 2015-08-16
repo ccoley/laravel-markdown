@@ -1,0 +1,22 @@
+{
+    "name": "ccoley/laravel-markdown",
+    "description": "A Parsedown wrapper for Laravel 5",
+    "keywords": ["markdown", "parser", "parsedown", "laravel", "laravel 5"],
+    "type": "library",
+    "require": {
+        "erusev/parsedown": "^1.5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coley\\Markdown\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Coley",
+            "email": "chris@codingallnight.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
