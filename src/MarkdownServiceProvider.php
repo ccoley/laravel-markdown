@@ -19,8 +19,17 @@ class MarkdownServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function register() {
-		$this->app->singleton('Coley\Markdown', function($app) {
+		$this->app->singleton('coley.markdown', function () {
 			return new \Parsedown;
 		});
+	}
+
+	/**
+	 * Get the services provided by the provider.
+	 *
+	 * @return array
+	 */
+	public function provides() {
+		return ['coley.markdown'];
 	}
 }

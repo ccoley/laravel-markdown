@@ -4,7 +4,7 @@
     "keywords": ["markdown", "parser", "parsedown", "laravel", "laravel 5"],
     "type": "library",
     "require": {
-		"php": ">=5.3.0",
+        "php": ">=5.4.0",
         "erusev/parsedown": "^1.5.4"
     },
     "autoload": {
@@ -17,9 +17,9 @@
         {
             "name": "Chris Coley",
             "email": "chris@codingallnight.com",
-			"homepage": "http://codingallnight.com"
+            "homepage": "http://codingallnight.com"
         }
     ],
     "minimum-stability": "dev",
-	"prefer-stable": true
+    "prefer-stable": true
 }
