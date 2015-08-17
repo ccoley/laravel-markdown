@@ -16,19 +16,19 @@ composer require ccoley/laravel-markdown
 
 After updating composer, add the service provider to the `providers` array in `config/app.php`
 
-```php
+```
 Coley\Markdown\MarkdownServiceProvider::class,
 ```
 
 If you want to use the `Markdown` facade, you need to add it to the `aliases` array in `config/app.php`
 
-```php
+```
 'Markdown' => Coley\Markdown\MarkdownFacade::class
 ```
 
 ## Example
 
-```php
+```
 // Regular parsing.
 // Output: <p>Hello <em>Markdown</em>!</p>
 echo Markdown::text('Hello _Markdown_!');
