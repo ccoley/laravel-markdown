@@ -4,6 +4,8 @@ A [Parsedown][1] wrapper for Laravel to compile markdown to HTML.
 
 Parsedown is fast and supports [GitHub flavored markdown][2].
 
+The `Markdown` service provider included in this package uses deferred loading, meaning that it is not loaded with every request, and is instead loaded when you first use it.
+
 ## Installation
 
 Require this package with composer using the following command:
